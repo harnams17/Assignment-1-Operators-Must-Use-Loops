@@ -1,0 +1,37 @@
+Write a Python program that accepts a word from the user and reverse it.
+
+Sample Test Case
+
+Input : Edyoda
+output: adoydE
+
+Python Code: Method : 1
+
+# Take the string input from user
+word = input("Input a word to reverse: ")
+for char in range(len(word) - 1, -1, -1):
+  print(word[char], end="")
+
+print("n")
+
+Python Output:
+Input a word to reverse: Edyoda
+adoydEn
+
+Python Code: Method : 2
+
+word = "Edyoda"
+
+for char in range(len(word) - 1, -1, -1):
+  print(word[char], end="")
+
+print("n")
+
+Python Output:
+adoydEn
+
+Python Code: Method : 3
+a="EdYoda"
+print(a[::-1])
+Python Output:
+adoydEn
